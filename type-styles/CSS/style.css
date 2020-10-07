@@ -1,0 +1,73 @@
+html {
+    color: black;
+    font-family: Merriweather, serif;
+    font-size: 15pt;
+    background-color: whitesmoke;
+  }
+
+  h1 {
+    font-size: 48pt;
+    color: grey;
+  }
+
+  h2 {
+      font-size: 32pt;
+      color: grey;
+  }
+
+  h3 {
+      font-size: 18pt;
+  }
+
+  body {
+      margin: 10%;
+  }
+
+  section {
+      margin: 5em 0;
+  }
+
+  #light {
+      font-weight: 300;
+  }
+
+  #regular {
+      font-weight: 400;
+  }
+
+  #bold {
+      font-weight: 700;
+  }
+
+  #black {
+      font-weight: 900;
+  }
+
+  #italic {
+      font-style: italic;
+  }
+  
+  #tight {
+      letter-spacing: -0.2em;
+  }
+  #loose {
+      letter-spacing: 0.2em;
+  }
+  #uppercase {
+      text-transform: uppercase;
+  }
+  #lowercase {
+      text-transform: lowercase;
+  }
+  #capital {
+      text-transform: capitalize;
+  }
+  #underlined {
+      text-decoration: underline;
+  }
+  #overlined {
+      text-decoration: overline;
+  }
+  #linethrough {
+      text-decoration: line-through;
+  }
