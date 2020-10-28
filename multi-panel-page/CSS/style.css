@@ -1,0 +1,142 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    background-color: rgba(255,0,0,.5);
+    text-align: center;
+    padding-top: 150px;
+    height: 330px;
+    background-image: url(https://miro.medium.com/max/1131/1*BviQ3Vo6REw7lIjPXMBExA.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: ;
+}
+
+h1 {
+    font-size: 60pt;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: .2pt;
+}
+
+.column-container {
+    width: 960px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30pt;
+    margin: 8pt;
+}
+
+section {
+    padding-top: 30px;
+}
+
+#section1 {
+    background-color:black;
+    height: 685px;
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 9pt;
+  }
+  
+  .grid li {
+    flex:50%;
+    list-style-type: none;
+    margin-bottom: 17pt;
+  }
+  
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 22pt;
+    }
+#section2 {
+        background-color: whitesmoke;
+        height: 655px;
+        color: black;
+    }
+
+#section3 {
+        background-color: black;
+        height: 380px;
+    }
+
+footer {
+        height: 90px;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .bandpic {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        float: right;
+        margin-top: 15pt;
+        margin-left: 25pt;
+        margin-bottom: 15pt;
+      }
+
+.body-copy {
+    font-weight: 500;
+    margin-top: 0pt;
+    font-size: 13pt;
+    letter-spacing: 0pt;
+    line-height: 19pt;
+}
+
+.body-copy-wrapper {
+    margin-top: 24pt;
+}
+
+h4 {
+    text-align: left;
+    font-size: 16pt;
+    margin: 0pt;
+    padding: 0;
+    line-height: 20pt;
+    margin-bottom: 6.5pt;
+    letter-spacing: -1;
+}
+
+.grid li div {
+    padding-right: 20pt;
+  }
+
+  h5 {
+      display: block;
+    text-align: center;
+    font-size: 19pt;
+    
+    font-weight: 500;
+    line-height: 27pt;
+    width: 532.5pt;
+    margin: auto;
+    margin-top: 20pt;
+  }
+
+  h6 {
+      font-size: 13pt;
+      font-weight: 700;
+      margin-top: 0pt;
+      margin-bottom: 0pt;
+      padding-top: 28pt;
+  }
